@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4CC7AF32863441400D1DB89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7AF22863441400D1DB89 /* AppDelegate.swift */; };
+		E4CC7AF52863441400D1DB89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7AF42863441400D1DB89 /* SceneDelegate.swift */; };
+		E4CC7AF72863441400D1DB89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7AF62863441400D1DB89 /* ViewController.swift */; };
+		E4CC7AFA2863441400D1DB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CC7AF82863441400D1DB89 /* Main.storyboard */; };
+		E4CC7AFC2863441700D1DB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CC7AFB2863441700D1DB89 /* Assets.xcassets */; };
+		E4CC7AFF2863441700D1DB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CC7AFD2863441700D1DB89 /* LaunchScreen.storyboard */; };
+		E4CC7B0A2863441700D1DB89 /* NewsApp_PlayoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B092863441700D1DB89 /* NewsApp_PlayoTests.swift */; };
+		E4CC7B142863441700D1DB89 /* NewsApp_PlayoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B132863441700D1DB89 /* NewsApp_PlayoUITests.swift */; };
+		E4CC7B162863441700D1DB89 /* NewsApp_PlayoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B152863441700D1DB89 /* NewsApp_PlayoUITestsLaunchTests.swift */; };
+		E4CC7B232863447A00D1DB89 /* ModelMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B222863447A00D1DB89 /* ModelMain.swift */; };
+		E4CC7B252863450100D1DB89 /* ArticalsMCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B242863450100D1DB89 /* ArticalsMCodeable.swift */; };
+		E4CC7B272864227900D1DB89 /* NewsMCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B262864227900D1DB89 /* NewsMCodeable.swift */; };
+		E4CC7B29286424D800D1DB89 /* ConstentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC7B28286424D800D1DB89 /* ConstentsData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4CC7B062863441700D1DB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4CC7AE72863441400D1DB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CC7AEE2863441400D1DB89;
+			remoteInfo = "NewsApp Playo";
+		};
+		E4CC7B102863441700D1DB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4CC7AE72863441400D1DB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4CC7AEE2863441400D1DB89;
+			remoteInfo = "NewsApp Playo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4CC7AEF2863441400D1DB89 /* NewsApp Playo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApp Playo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CC7AF22863441400D1DB89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4CC7AF42863441400D1DB89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4CC7AF62863441400D1DB89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4CC7AF92863441400D1DB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4CC7AFB2863441700D1DB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4CC7AFE2863441700D1DB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4CC7B002863441700D1DB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CC7B052863441700D1DB89 /* NewsApp PlayoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsApp PlayoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CC7B092863441700D1DB89 /* NewsApp_PlayoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp_PlayoTests.swift; sourceTree = "<group>"; };
+		E4CC7B0F2863441700D1DB89 /* NewsApp PlayoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsApp PlayoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CC7B132863441700D1DB89 /* NewsApp_PlayoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp_PlayoUITests.swift; sourceTree = "<group>"; };
+		E4CC7B152863441700D1DB89 /* NewsApp_PlayoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp_PlayoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4CC7B222863447A00D1DB89 /* ModelMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMain.swift; sourceTree = "<group>"; };
+		E4CC7B242863450100D1DB89 /* ArticalsMCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticalsMCodeable.swift; sourceTree = "<group>"; };
+		E4CC7B262864227900D1DB89 /* NewsMCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMCodeable.swift; sourceTree = "<group>"; };
+		E4CC7B28286424D800D1DB89 /* ConstentsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstentsData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4CC7AEC2863441400D1DB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B022863441700D1DB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B0C2863441700D1DB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4CC7AE62863441400D1DB89 = {
+			isa = PBXGroup;
+			children = (
+				E4CC7AF12863441400D1DB89 /* NewsApp Playo */,
+				E4CC7B082863441700D1DB89 /* NewsApp PlayoTests */,
+				E4CC7B122863441700D1DB89 /* NewsApp PlayoUITests */,
+				E4CC7AF02863441400D1DB89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4CC7AF02863441400D1DB89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC7AEF2863441400D1DB89 /* NewsApp Playo.app */,
+				E4CC7B052863441700D1DB89 /* NewsApp PlayoTests.xctest */,
+				E4CC7B0F2863441700D1DB89 /* NewsApp PlayoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4CC7AF12863441400D1DB89 /* NewsApp Playo */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC7AF22863441400D1DB89 /* AppDelegate.swift */,
+				E4CC7AF42863441400D1DB89 /* SceneDelegate.swift */,
+				E4CC7AF62863441400D1DB89 /* ViewController.swift */,
+				E4CC7AF82863441400D1DB89 /* Main.storyboard */,
+				E4CC7AFB2863441700D1DB89 /* Assets.xcassets */,
+				E4CC7AFD2863441700D1DB89 /* LaunchScreen.storyboard */,
+				E4CC7B002863441700D1DB89 /* Info.plist */,
+				E4CC7B222863447A00D1DB89 /* ModelMain.swift */,
+				E4CC7B242863450100D1DB89 /* ArticalsMCodeable.swift */,
+				E4CC7B262864227900D1DB89 /* NewsMCodeable.swift */,
+				E4CC7B28286424D800D1DB89 /* ConstentsData.swift */,
+			);
+			path = "NewsApp Playo";
+			sourceTree = "<group>";
+		};
+		E4CC7B082863441700D1DB89 /* NewsApp PlayoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC7B092863441700D1DB89 /* NewsApp_PlayoTests.swift */,
+			);
+			path = "NewsApp PlayoTests";
+			sourceTree = "<group>";
+		};
+		E4CC7B122863441700D1DB89 /* NewsApp PlayoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC7B132863441700D1DB89 /* NewsApp_PlayoUITests.swift */,
+				E4CC7B152863441700D1DB89 /* NewsApp_PlayoUITestsLaunchTests.swift */,
+			);
+			path = "NewsApp PlayoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4CC7AEE2863441400D1DB89 /* NewsApp Playo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CC7B192863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp Playo" */;
+			buildPhases = (
+				E4CC7AEB2863441400D1DB89 /* Sources */,
+				E4CC7AEC2863441400D1DB89 /* Frameworks */,
+				E4CC7AED2863441400D1DB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewsApp Playo";
+			productName = "NewsApp Playo";
+			productReference = E4CC7AEF2863441400D1DB89 /* NewsApp Playo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4CC7B042863441700D1DB89 /* NewsApp PlayoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CC7B1C2863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp PlayoTests" */;
+			buildPhases = (
+				E4CC7B012863441700D1DB89 /* Sources */,
+				E4CC7B022863441700D1DB89 /* Frameworks */,
+				E4CC7B032863441700D1DB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4CC7B072863441700D1DB89 /* PBXTargetDependency */,
+			);
+			name = "NewsApp PlayoTests";
+			productName = "NewsApp PlayoTests";
+			productReference = E4CC7B052863441700D1DB89 /* NewsApp PlayoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4CC7B0E2863441700D1DB89 /* NewsApp PlayoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CC7B1F2863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp PlayoUITests" */;
+			buildPhases = (
+				E4CC7B0B2863441700D1DB89 /* Sources */,
+				E4CC7B0C2863441700D1DB89 /* Frameworks */,
+				E4CC7B0D2863441700D1DB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4CC7B112863441700D1DB89 /* PBXTargetDependency */,
+			);
+			name = "NewsApp PlayoUITests";
+			productName = "NewsApp PlayoUITests";
+			productReference = E4CC7B0F2863441700D1DB89 /* NewsApp PlayoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4CC7AE72863441400D1DB89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E4CC7AEE2863441400D1DB89 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E4CC7B042863441700D1DB89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E4CC7AEE2863441400D1DB89;
+					};
+					E4CC7B0E2863441700D1DB89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E4CC7AEE2863441400D1DB89;
+					};
+				};
+			};
+			buildConfigurationList = E4CC7AEA2863441400D1DB89 /* Build configuration list for PBXProject "NewsApp Playo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4CC7AE62863441400D1DB89;
+			productRefGroup = E4CC7AF02863441400D1DB89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4CC7AEE2863441400D1DB89 /* NewsApp Playo */,
+				E4CC7B042863441700D1DB89 /* NewsApp PlayoTests */,
+				E4CC7B0E2863441700D1DB89 /* NewsApp PlayoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4CC7AED2863441400D1DB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CC7AFF2863441700D1DB89 /* LaunchScreen.storyboard in Resources */,
+				E4CC7AFC2863441700D1DB89 /* Assets.xcassets in Resources */,
+				E4CC7AFA2863441400D1DB89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B032863441700D1DB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B0D2863441700D1DB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4CC7AEB2863441400D1DB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CC7B232863447A00D1DB89 /* ModelMain.swift in Sources */,
+				E4CC7AF72863441400D1DB89 /* ViewController.swift in Sources */,
+				E4CC7B252863450100D1DB89 /* ArticalsMCodeable.swift in Sources */,
+				E4CC7AF32863441400D1DB89 /* AppDelegate.swift in Sources */,
+				E4CC7AF52863441400D1DB89 /* SceneDelegate.swift in Sources */,
+				E4CC7B272864227900D1DB89 /* NewsMCodeable.swift in Sources */,
+				E4CC7B29286424D800D1DB89 /* ConstentsData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B012863441700D1DB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CC7B0A2863441700D1DB89 /* NewsApp_PlayoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4CC7B0B2863441700D1DB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CC7B142863441700D1DB89 /* NewsApp_PlayoUITests.swift in Sources */,
+				E4CC7B162863441700D1DB89 /* NewsApp_PlayoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4CC7B072863441700D1DB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4CC7AEE2863441400D1DB89 /* NewsApp Playo */;
+			targetProxy = E4CC7B062863441700D1DB89 /* PBXContainerItemProxy */;
+		};
+		E4CC7B112863441700D1DB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4CC7AEE2863441400D1DB89 /* NewsApp Playo */;
+			targetProxy = E4CC7B102863441700D1DB89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4CC7AF82863441400D1DB89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CC7AF92863441400D1DB89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4CC7AFD2863441700D1DB89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CC7AFE2863441700D1DB89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4CC7B172863441700D1DB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4CC7B182863441700D1DB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4CC7B1A2863441700D1DB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewsApp Playo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-Playo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4CC7B1B2863441700D1DB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewsApp Playo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-Playo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4CC7B1D2863441700D1DB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-PlayoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApp Playo.app/NewsApp Playo";
+			};
+			name = Debug;
+		};
+		E4CC7B1E2863441700D1DB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-PlayoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApp Playo.app/NewsApp Playo";
+			};
+			name = Release;
+		};
+		E4CC7B202863441700D1DB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-PlayoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NewsApp Playo";
+			};
+			name = Debug;
+		};
+		E4CC7B212863441700D1DB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimbooks.me.NewsApp-PlayoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NewsApp Playo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4CC7AEA2863441400D1DB89 /* Build configuration list for PBXProject "NewsApp Playo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CC7B172863441700D1DB89 /* Debug */,
+				E4CC7B182863441700D1DB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CC7B192863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp Playo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CC7B1A2863441700D1DB89 /* Debug */,
+				E4CC7B1B2863441700D1DB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CC7B1C2863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp PlayoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CC7B1D2863441700D1DB89 /* Debug */,
+				E4CC7B1E2863441700D1DB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CC7B1F2863441700D1DB89 /* Build configuration list for PBXNativeTarget "NewsApp PlayoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CC7B202863441700D1DB89 /* Debug */,
+				E4CC7B212863441700D1DB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4CC7AE72863441400D1DB89 /* Project object */;
+}
