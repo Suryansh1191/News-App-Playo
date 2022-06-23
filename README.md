@@ -1,2 +1,2 @@
 # News-App-Playo
-Small API Calling News App using UIKit 
+Small API Calling News App (using UIKit for UI)
